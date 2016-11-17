@@ -1,6 +1,4 @@
-/*
-* Author: Kinara
-*/
+
 
 #include<iostream>
 #include<systemc>

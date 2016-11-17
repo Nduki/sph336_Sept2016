@@ -1,6 +1,3 @@
-/*
-* Author: ule msee
-*/
 
 #include<systemc>
 

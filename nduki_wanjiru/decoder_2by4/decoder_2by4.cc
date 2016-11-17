@@ -1,6 +1,3 @@
-
-
-
 #include"decoder_2by4.h"
 #include"driver.h"
 #include"monitor.h"
