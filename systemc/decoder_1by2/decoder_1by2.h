@@ -1,9 +1,3 @@
-/*
- * decoder_1by2.h
- *
- *  Created on: Oct 28, 2016
- *      Author: karibe
- */
 
 #ifndef DECODER_1BY2_H_
 #define DECODER_1BY2_H_
