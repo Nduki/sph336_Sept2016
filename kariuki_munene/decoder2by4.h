@@ -1,8 +1,8 @@
 /*
- * decoder_1by2.h
+ * decoder_2by4.h
  *
- *  Created on: Oct 28, 2016
- *      Author: karibe
+ *  Created on: nov 13, 2016
+ *      Author: munene
  */
 
 #ifndef DECODER_1BY2_H_

@@ -1,10 +1,6 @@
 /*
- * decoder_1by2.h
- *
- *  Created on: Oct 28, 2016
- *      Author: karibe
- */
-
+* Author: koech
+*/
 #ifndef DECODER_1BY2_H_
 #define DECODER_1BY2_H_
 #include<systemc.h>
@@ -13,15 +9,16 @@ SC_MODULE(decoder){
 //input and output ports
 sc_in<bool> a;
 sc_out<bool> b,c;
-//constructor: where the processes are bound to simulation kernel
+//constructor:
 SC_CTOR(decoder){
 	SC_METHOD(decode);
 	sensitive<<a;
 	//dont_initialize();
 }
 
+//deconstructor
 ~decoder(){
-//delete stuff :P
+
 }
 
 void decode(void){
